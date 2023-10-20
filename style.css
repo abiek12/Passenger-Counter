@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./Images/background.png);
+  background-size: cover;
+}
+.main-body {
+  margin: 50px auto;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+h1 {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+#count {
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#increment-btn {
+  background: darkred;
+}
+
+#increment-btn:active {
+  transform: scale(0.95);
+}
+#save-btn {
+  background: darkgreen;
+}
+#save-btn:active {
+  transform: scale(0.95);
+}
